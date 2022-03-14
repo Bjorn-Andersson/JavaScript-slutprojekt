@@ -1,8 +1,3 @@
-# A Vue.js template for Vite
+# Mitt JavaScript slutprojekt
 
-NOTE:
-
-Varje gång jag skapar ett nytt Vue:Vite projekt så måste jag:
-
-1.  npm install --save-dev eslint eslint-plugin-vue (i konsollen)
-2.  skapa en ny eslint config fil.
+En simpel website som presenterar world-wide COVID-19 statistik i ett någorlunda anpassningsbart sätt. Inkluderar även två andra sidor som krävdes för VG i kursen, en sida som presenterar datan i en Chart.js, och en som hämtade och presenterade data från skolans egna backend.
