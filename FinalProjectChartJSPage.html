@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChartJS Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="FinalProjectChartJSPage.css">
+</head>
+
+<body>
+  <header>
+    <div class=header>
+      <div class="container">
+        <h1>COVID-19 Data Service</h1>
+        <p>Easily accessable COVID-19 data</p>
+        <h2>Sections:</h2>
+        <nav class="nav">
+          <ul>
+            <li><a href="FinalProjectFirstpage.html">Home</a></li>
+            <li><a href="FinalProjectCitiesPage.html">VG cities</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <h1>World-wide COVID-19 data:</h1>
+      <section class="worldChart">
+        <canvas id="myChart" width="2" height="1"></canvas>
+      </section>
+      <form id="countryForm">
+        <h1>Country specific COVID-19 data:</h1>
+        <p>Please enter country, starting with a capitalized letter, ex. "Russia"</p>
+        <div class="col-5 container2">
+          <input class="form-control" id="countryField" placeholder="Please enter country">
+          <input type="submit" value="Submit" class="button btn btn-dark">
+        </div>
+      </form>
+      <section class="countryChart">
+        <canvas id="myChart2" width="2" height="1"></canvas>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy;Some rights reserved</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+  <script src="FinalProjectChartJS.js"></script>
+</body>
+
+</html>

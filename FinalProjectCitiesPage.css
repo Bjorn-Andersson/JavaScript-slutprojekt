@@ -1,0 +1,96 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  max-width: 60%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.header{
+  background-image: url("Covid-19-Banner.webp");
+  background-position: right;
+  width: 100%;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  color:whitesmoke;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+.header h1{
+  font-size: 250%;
+  margin-bottom: 0;
+}
+.header p{
+  padding-bottom: 5px;
+  font-size: 130%;
+}
+.header h2{
+  margin-bottom: 5px;
+  font-size: 120%;
+}
+.nav li{
+  background-color: black;
+  list-style: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 2px solid white;
+  border-radius: 3px;
+  transition-property: background-color, border;
+  transition-duration: 0.5s;
+}
+.nav li:hover{
+  background-color: white;
+  border: 2px solid black;
+}
+.nav ul{
+  display: flex;
+  gap: 10px;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.nav a{
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+  color:whitesmoke;
+  transition-property: color;
+  transition-duration: 0.5s;
+  text-shadow: none;
+}
+.nav a:hover{
+  color:black;
+}
+article h1{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.flex{
+  display: flex;
+}
+.cityList{
+  margin: auto;
+  padding-bottom: 60px;
+}
+.cityList h2{
+  text-align: center;
+}
+#citiesList{
+  list-style-type: none;
+  padding-left: 0;
+}
+#citiesButton{
+  margin: auto;
+}
+#citiesFormAdd, #citiesFormRemove, #citiesFormModify{
+  padding:15px 40px 15px 40px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px 2px #000;
+}
+.form-control{
+  margin-bottom: 15px;
+}
+footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 25px;
+}
